@@ -1,0 +1,11 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: blastoise-dubbo-consume
+dubbo:
+  protocol:
+    name: dubbo
+    port: 10000
+  registry:
+    address: zookeeper://10.101.12.44:2181
