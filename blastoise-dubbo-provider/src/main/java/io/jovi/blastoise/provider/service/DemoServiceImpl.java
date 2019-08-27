@@ -28,7 +28,6 @@ public class DemoServiceImpl implements DemoService {
      * @param name
      * @return
      */
-    @Override
     public String sayHello(String name) {
         log.info("someone is calling me......");
         return "say hello to: " + name;
