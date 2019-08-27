@@ -15,6 +15,10 @@ package io.jovi.blastoise.common.proxy;
  * @version 1.0
  */
 public interface DemoService {
-
+    /**
+     * hello 样例
+     * @param name
+     * @return
+     */
     String sayHello(String name);
 }

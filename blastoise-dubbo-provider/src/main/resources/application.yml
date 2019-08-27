@@ -3,9 +3,7 @@ server:
 spring:
   application:
     name: blastoise-dubbo-provider
-dubbo:
-  protocol:
-    name: dubbo
-    port: 12345
-  registry:
-    address: zookeeper://10.101.12.44:2181
+  dubbo:
+    application:
+      name: blastoise-dubbo-provider
+      registry: zookeeper://10.101.12.44:2181
